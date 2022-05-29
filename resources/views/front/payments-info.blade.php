@@ -118,9 +118,11 @@
                                     <li class="nav-item"><a href="/blog" class="nav-link">Blog </a>
                                     </li>
 
-                                    <li class="nav-item"><a href="/contact" class="nav-link active">Contact</a></li>
+                                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
 
                                     <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
+
+                                    <li class="nav-item"><a href="/payments-details" class="nav-link active">Pay</a></li>
                                 </ul>
 
                                 <div class="others-option">
@@ -180,6 +182,9 @@
                                     <li class="nav-item"><a href="/contact" class="nav-link active">Contact</a></li>
 
                                     <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
+
+                                    <li class="nav-item"><a href="/payments-details" class="nav-link active">Pay</a></li>
+
                                 </ul>
 
                                 <div class="others-option">
@@ -238,9 +243,9 @@
                 <div class="page-title-content">
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li>Contact</li>
+                        <li>Payments</li>
                     </ul>
-                    <h2>Contact Us</h2>
+                    <h2>Payments Info</h2>
                 </div>
             </div>
         </div>
@@ -253,35 +258,36 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="contact-info-box mb-30">
                             <div class="icon">
-                                <i class='bx bx-envelope'></i>
+                                <i class='bx bxs-bank'></i>
                             </div>
 
-                            <h3>Email Here</h3>
-                            <p>joomesupport@gmail.com</p>
-                            <p>ocibajames@gmail.com</p>
+                            <h3>Bank Account</h3>
+                            <p>Bank Name: Post Bank</p>
+                            <p>Account Name: Ociba James</p>
+                            <p>Account Number: 0389735429900</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="contact-info-box mb-30">
                             <div class="icon">
-                                <i class='bx bx-map'></i>
+                                <i class='bx bx-money'></i>
                             </div>
 
-                            <h3>Location Here</h3>
-                            <p>Ajesa Parish, Kapir Subcounty,
-                                <br>Ngora County, Ngora District,
-                               <br> Uganda - East Africa</p>
+                            <h3>Mobile Money</h3>
+                            <p>Mtn Number: 0775401793</p>
+                            <p>Airtel Number: 0753926367</p>
+                            <p>Names: Ociba James</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                         <div class="contact-info-box mb-30">
                             <div class="icon">
-                                <i class='bx bx-phone-call'></i>
+                                <i class='bx bxl-visa'></i>
                             </div>
 
-                            <h3>Call Here</h3>
+                            <h3>Visa</h3>
                             <p><a href="tel:256753926367">+256753926367</a></p>
                             <p><a href="tel:256775401793">+256775401793</a></p>
                         </div>
@@ -292,30 +298,6 @@
             <div id="particles-js-circle-bubble-2"></div>
         </section>
         <!-- End Contact Info Area -->
-
-        <!-- Start Contact Area -->
-        <section class="contact-area pb-100">
-            <div class="container">
-                <div class="section-title">
-                    <span class="sub-title">Contact Us</span>
-                    <h2>Drop us Message for any Query</h2>
-                </div>
-                @if (session()->has('message'))
-                    <div class="alert alert-success">
-                        {{ session('message') }}
-                    </div>
-                @endif
-                <div class="contact-form">
-                    @livewireStyles
-                    @livewire('messages')
-                    @livewireScripts
-                </div>
-            </div>
-
-            <div id="particles-js-circle-bubble-3"></div>
-            <div class="contact-bg-image"><img src="{{ asset('assets/img/map.png')}}" alt="image"></div>
-        </section>
-        <!-- End Contact Area -->
 
         <!-- Maps -->
         <!--<div id="map">

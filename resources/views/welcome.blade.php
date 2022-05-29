@@ -838,7 +838,7 @@
                         <div class="col-lg-4 col-md-6 mix management">
                             <div class="single-courses-box mb-30">
                                 <div class="courses-image">
-                                    <a href="/target-group" class="d-block"><img src="{{ asset('assets/img/mine/tg19.jfif')}}" alt="image"></a>
+                                    <a href="/target-group" class="d-block"><img src="{{ asset('assets/img/mine/tg19.jfif')}}" style="height:240px;" alt="image"></a>
     
                                     <div class="courses-tag">
                                         <a href="#" class="d-block">Divorced Parents</a>
@@ -861,7 +861,7 @@
                         <div class="col-lg-4 col-md-6 mix photography">
                             <div class="single-courses-box mb-30">
                                 <div class="courses-image">
-                                    <a href="/target-group" class="d-block"><img src="{{ asset('assets/img/mine/tg23.jpg')}}" alt="image"></a>
+                                    <a href="/target-group" class="d-block"><img src="{{ asset('assets/img/mine/tg23.jpg')}}"  alt="image"></a>
     
                                     <div class="courses-tag">
                                         <a href="#" class="d-block">Academically Gifted</a>
@@ -1021,7 +1021,7 @@
                 <div class="section-title">
                     <span class="sub-title">Make Connections</span>
                     <h2>JOOME Organization Team Leader Biography</h2>
-                    <p class="donate"><a href="team.html" style="color: #ffffff;">Read More</a></p>
+                    <p class="donate"><a href="/team" style="color: #ffffff;">Read More</a></p>
                 </div>
 
                 <!--<div class="row">
@@ -1111,49 +1111,14 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="students-feedback-form">
                             <h3>Send Us A Message For Inquiry</h3>
-
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your name*">
-                                            <span class="label-title"><i class='bx bx-user'></i></span>
-                                        </div>
+                               @if (session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session('message') }}
                                     </div>
-
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your address*">
-                                            <span class="label-title"><i class='bx bx-home'></i></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your email*">
-                                            <span class="label-title"><i class='bx bx-envelope'></i></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your phone*">
-                                            <span class="label-title"><i class='bx bx-phone'></i></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <textarea cols="30" rows="5" class="form-control" placeholder="Write something here (Optional)"></textarea>
-                                            <span class="label-title"><i class='bx bx-edit'></i></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="default-btn"><i class='bx bx-paper-plane icon-arrow before'></i><span class="label">Send Message</span><i class="bx bx-paper-plane icon-arrow after"></i></button>
-                                    </div>
-                                </div>
-                            </form>
+                                @endif
+                             @livewireStyles
+                            @livewire('home-message-form')
+                            @livewireScripts
                         </div>
                     </div>
                 </div>
@@ -1391,13 +1356,14 @@
 
                             <div class="newsletter-box">
                                 <p>To get the latest news and latest updates from us.</p>
-
-                                <form class="newsletter-form" data-bs-toggle="validator">
-                                    <label>Your e-mail address:</label>
-                                    <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
-                                    <button type="submit">Subscribe</button>
-                                    <div id="validator-newsletter" class="form-result"></div>
-                                </form>
+                                @if (session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session('message') }}
+                                    </div>
+                                @endif
+                               @livewireStyles
+                               @livewire('subscription')
+                               @livewireScripts
                             </div>
                         </div>
                     </div>

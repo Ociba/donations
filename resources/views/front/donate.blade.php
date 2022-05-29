@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="zxx" class="theme-light">
-<head>
+    <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Links of CSS files -->
         <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{ asset('assets/css/boxicons.min.css')}}">
@@ -21,14 +20,10 @@
         <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
         <link rel="stylesheet" href="{{ asset('assets/css/dark.css')}}">
         <link rel="stylesheet" href="{{ asset('assets/css/responsive.css')}}">
-
         <title>Joome Support -Computer,Music and Sports</title>
-
         <link rel="icon" type="image/png" href="{{ asset('assets/img/partner/11.png')}}">
     </head>
-
     <body>
-
         <!-- Preloader -->
         <div class="preloader">
             <div class="loader">
@@ -37,10 +32,8 @@
             </div>
         </div>
         <!-- End Preloader -->
-
         <!-- Start Header Area -->
         <header class="header-area">
-
             <div class="top-header">
                 <div class="container">
                     <div class="row align-items-center">
@@ -64,7 +57,6 @@
                                 </li>
                             </ul>
                         </div>
-
                         <div class="col-lg-4">
                             <div class="top-header-btn">
                                 <a href="/login" class="default-btn"><i class='bx bx-log-in icon-arrow before'></i><span class="label">Log In</span><i class="bx bx-log-in icon-arrow after"></i></a>
@@ -73,7 +65,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Start Navbar Area -->
             <div class="navbar-area">
                 <div class="raque-responsive-nav">
@@ -81,65 +72,52 @@
                         <div class="raque-responsive-menu">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                    <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                    
+                                <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
+                                <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="raque-nav bg-transparent">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="/">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                
-                                <a class="navbar-brand" href="/"><span class="name">JOOME</span></a>
+                            <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
+                            <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
+                            <a class="navbar-brand" href="/"><span class="name">JOOME</span></a>
                             </a>
-
                             <div class="collapse navbar-collapse mean-menu">
                                 <ul class="navbar-nav">
                                     <li class="nav-item"><a href="/" class="nav-link">Home </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/about" class="nav-link">About </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/activities" class="nav-link">Activities </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/target-group" class="nav-link">Target Group </a>
                                     </li>
-                                    
                                     <li class="nav-item"><a href="/projects" class="nav-link">Projects </a>
                                     </li>
-                                    
                                     <li class="nav-item"><a href="/blog" class="nav-link">Blog </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-
                                     <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
                                 </ul>
-
                                 <div class="others-option">
                                     <div class="dropdown language-switcher d-inline-block">
                                         <a href="/donate" class="dropdown-toggle active">
-                                            <span class="donate">Donate </span>
+                                        <span class="donate">Donate </span>
                                         </a>
                                     </div>
-
                                     <!--<a href="cart.html" class="cart-wrapper-btn d-inline-block">
                                         <i class='bx bx-cart-alt'></i>
                                         <span>01</span>
-                                    </a>
-
-                                    <div class="search-box d-inline-block">
+                                        </a>
+                                        
+                                        <div class="search-box d-inline-block">
                                         <i class='bx bx-search'></i>
-                                    </div>-->
+                                        </div>-->
                                 </div>
                             </div>
                         </nav>
@@ -147,57 +125,46 @@
                 </div>
             </div>
             <!-- End Navbar Area -->
-
             <!-- Start Sticky Navbar Area -->
             <div class="navbar-area header-sticky">
                 <div class="raque-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="/">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                <a class="navbar-brand" href="/"><span class="name">JOOME</span></a>
+                            <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
+                            <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
+                            <a class="navbar-brand" href="/"><span class="name">JOOME</span></a>
                             </a>
-
                             <div class="collapse navbar-collapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item"><a href="/" class="nav-link">Home </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/about" class="nav-link">About </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/activities" class="nav-link">Activities </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/target-group" class="nav-link">Target Group </a>
                                     </li>
-                                    
                                     <li class="nav-item"><a href="/projects" class="nav-link">Projects </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/blog" class="nav-link">Blog </a>
                                     </li>
-
                                     <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-
                                     <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
                                 </ul>
-
                                 <div class="others-option">
                                     <div class="dropdown language-switcher d-inline-block">
-                                            <a href="/donate" class="dropdown-toggle active">
-                                                <span class="donate">Donate </span>
-                                            </a>
-                                        </div>
-    
-                                        <!--<a href="cart.html" class="cart-wrapper-btn d-inline-block">
-                                            <i class='bx bx-cart-alt'></i>
-                                            <span>01</span>
+                                        <a href="/donate" class="dropdown-toggle active">
+                                        <span class="donate">Donate </span>
                                         </a>
-    
+                                    </div>
+                                    <!--<a href="cart.html" class="cart-wrapper-btn d-inline-block">
+                                        <i class='bx bx-cart-alt'></i>
+                                        <span>01</span>
+                                        </a>
+                                        
                                         <div class="search-box d-inline-block">
-                                            <i class='bx bx-search'></i>
+                                        <i class='bx bx-search'></i>
                                         </div>-->
                                 </div>
                             </div>
@@ -206,10 +173,8 @@
                 </div>
             </div>
             <!-- End Sticky Navbar Area -->
-            
         </header>
         <!-- End Header Area -->
-
         <!-- Search Box Layout -->
         <div class="search-overlay">
             <div class="d-table">
@@ -217,12 +182,10 @@
                     <div class="search-overlay-layer"></div>
                     <div class="search-overlay-layer"></div>
                     <div class="search-overlay-layer"></div>
-                    
                     <div class="search-overlay-close">
                         <span class="search-overlay-close-line"></span>
                         <span class="search-overlay-close-line"></span>
                     </div>
-
                     <div class="search-overlay-form">
                         <form>
                             <input type="text" class="input-search" placeholder="Search here...">
@@ -233,7 +196,6 @@
             </div>
         </div>
         <!-- End Search Box Layout -->
-
         <!-- Start Page Title Area -->
         <div class="page-title-area page-title-style-three item-bg4 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
@@ -247,154 +209,21 @@
             </div>
         </div>
         <!-- End Page Title Area -->
-
         <!-- Start Courses Categories Area -->
         <section class="courses-categories-area ptb-100">
-            <div class="container">
-                
-                <form id="contactForm">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 col-md-6">
-                        <div class="payment-box">
-                            <div class="payment-method">
-                                <p style="color: #ff1949;">Make a donation and a gift of hope</p>
-                                <p>
-                                    <input type="radio" id="computer" name="radio-group" checked>
-                                    <label for="computer"> $800 -Provides Computer Studies</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="music" name="radio-group">
-                                    <label for="music">$500  -Provides Music,Dance & Drama Education</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="sports" name="radio-group">
-                                    <label for="sports">$300 -Provides Physical Education</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="structures" name="radio-group">
-                                    <label for="structures">$200 -Provides Study Structures</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="community" name="radio-group">
-                                    <label for="community">$100 -Provides Community Projects</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="materials" name="radio-group">
-                                    <label for="materials">$60 -Equipments,Faciities & Costumes</label>
-                                </p>
-                                <p>
-                                    $ <input type="radio" id="materials" name="radio-group"> <input type="text" id="" name="amount" >
-                                </p>
-                                <p>
-                                    <div  class="col-lg-5 col-md-4 col-sm-12">
-                                    <div class="form-group">
-                                    <select>
-                                        <option value="ones">One Time</option>
-                                        <option value=""recurring>Recurring</option>
-                                    </select>
-                                    </div>
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-sm-12 col-md-6">
-                        <div class="single-courses-category mb-30">
-                            <div class="contact-form" style="box-shadow:none; border-radius: 0px;">
-                                
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="first_name" id="first_name" class="form-control" required data-error="Please enter your first name" placeholder="First Name">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-            
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="last_name" id="last_name" class="form-control" required data-error="Please enter your Last Name" placeholder="Your Last Name">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-            
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="email" name="email" id="email" required data-error="Please enter your email" class="form-control" placeholder="Your Email">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-            
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="address" id="address" class="form-control" required data-error="Please enter your address" placeholder="Your Address">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-            
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="contact" id="contact" class="form-control" required data-error="Please enter your contact" placeholder="Your Contact">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="city" id="city" class="form-control" required data-error="Please enter your city" placeholder="Your city">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="state" id="state" class="form-control" required data-error="Please enter your state" placeholder="Your State">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="postal_code" id="postal_code" class="form-control" required data-error="Please enter your postal code" placeholder="Your Postal Code">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="country" id="country" class="form-control" required data-error="Please enter your country" placeholder="Your country">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-check">
-                                                    <input type="checkbox" class="form-check-input" id="create-an-account">
-                                                    <label class="form-check-label" for="create-an-account">I am not a robot</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 text-center">
-                            <button type="submit" class="default-btn"><i class='bx bx-paper-plane icon-arrow before'></i><span class="label">Send Information</span><i class="bx bx-paper-plane icon-arrow after"></i></button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </form>
+              @if (session()->has('message'))
+                <div class="alert alert-success">
+                    {{ session('message') }}
                 </div>
+            @endif
+            <div class="container">
+                @livewireStyles
+                @livewire('donation-form')
+                @livewireScripts
             </div>
-
             <div id="particles-js-circle-bubble-2"></div>
         </section>
         <!-- End Courses Categories Area -->
-
         <!-- Start Become Instructor & Partner Area -->
         <section class="become-instructor-partner-area">
             <div class="container-fluid">
@@ -406,19 +235,16 @@
                             <a href="/login" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Apply Now</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-image bg-image1 jarallax" data-jarallax='{"speed": 0.3}'>
                             <img src="{{ asset('assets/img/mine/piano3.jpg')}}" alt="image">
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-image bg-image2 jarallax" data-jarallax='{"speed": 0.3}'>
                             <img src="{{ asset('assets/img/mine/comp2.jpg')}}" alt="image">
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-content">
                             <h2>Become a Partner</h2>
@@ -430,7 +256,6 @@
             </div>
         </section>
         <!-- End Become Instructor & Partner Area -->
-
         <!-- Start Footer Area -->
         <footer class="footer-area">
             <div class="container">
@@ -438,7 +263,6 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget mb-30">
                             <h3>Contact Us</h3>
-
                             <ul class="contact-us-link">
                                 <li>
                                     <i class='bx bx-map'></i>
@@ -454,7 +278,6 @@
                                     joomesupport@gmail.com
                                 </li>
                             </ul>
-
                             <ul class="social-link">
                                 <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
                                 <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
@@ -464,11 +287,9 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget mb-30">
                             <h3>Support</h3>
-
                             <ul class="support-link">
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">FAQ's</a></li>
@@ -479,11 +300,9 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget mb-30">
                             <h3>Useful Link</h3>
-
                             <ul class="useful-link">
                                 <li><a href="/activities">Activities</a></li>
                                 <li><a href="/target-group">Target Groups</a></li>
@@ -494,14 +313,11 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget mb-30">
                             <h3>Newsletter</h3>
-
                             <div class="newsletter-box">
                                 <p>To get the latest news and latest updates from us.</p>
-
                                 <form class="newsletter-form" data-bs-toggle="validator">
                                     <label>Your e-mail address:</label>
                                     <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
@@ -513,29 +329,27 @@
                     </div>
                 </div>
             </div>
-
             <div class="footer-bottom-area">
                 <div class="container">
                     <div class="logo">
                         <a href="/" class="d-inline-block"><img src="{{ asset('assets/img/partner/11.png')}}" alt="image"></a>
                     </div>
-                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="https://templates.envytheme.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js')}}"></script><script>document.write(new Date().getFullYear())</script> <a href="/" target="_blank">JOOME</a> Designed By <a href="#" target="_blank">JoomeTechltd</a> | All rights reserved.</p>
+                    <p>
+                        <i class='bx bx-copyright'></i> <script>document.write(new Date().getFullYear())</script> <a href="/" target="_blank">JOOME</a> Designed By <a href="#" target="_blank">JoomeTechltd</a> | All rights reserved.
+                    </p>
                 </div>
             </div>
         </footer>
         <!-- End Footer Area -->
-        
         <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
-
         <!-- Dark version -->
         <div class="dark-version">
             <label id="switch" class="switch">
-                <input type="checkbox" onchange="toggleTheme()" id="slider">
-                <span class="slider round"></span>
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
             </label>
         </div>
         <!-- Dark version -->
-
         <!-- Links of JS files -->
         <script src="{{ asset('assets/js/jquery.min.js')}}"></script>
         <script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}"></script>

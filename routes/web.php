@@ -38,3 +38,5 @@ Route::get('/computer', function () { return view('front.computer');});
 Route::get('/music', function () { return view('front.music');});
 Route::get('/pe', function () { return view('front.pe');});
 Route::get('/sponsors', function () { return view('front.sponsors');});
+Route::get('/team', function () { return view('front.team');});
+Route::get('/payment-details',function(){ return view('front.payments-info');});
