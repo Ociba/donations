@@ -1,7 +1,7 @@
 <?php
 namespace App\Traits;
 
-trait SaveToFolder{
+trait SaveImageToFolder{
     /**
      * This function saves image to a folder
      */

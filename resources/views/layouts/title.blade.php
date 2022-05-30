@@ -1,0 +1,1 @@
+<title>Joome Support Organization | {{request()->route()->getName()}}</title>

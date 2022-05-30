@@ -1,0 +1,13 @@
+{
+    "name": "TargetGroup",
+    "alias": "targetgroup",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TargetGroup\\Providers\\TargetGroupServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

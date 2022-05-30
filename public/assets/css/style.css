@@ -642,6 +642,13 @@ Header CSS
   color: #020ab9;
   border-color: #ffffff;
 }
+.top-header-btn .default-btn2 {
+  background-color: #ffffff;
+  color: #020ab9;
+  border-color: #ffffff;
+  padding: 15px;
+  font-weight: bolder;
+}
 
 .top-header-btn .default-btn .icon-arrow {
   color: #020ab9;
@@ -12463,7 +12470,7 @@ My Account CSS
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 0px solid #eeeeee;
 }
 
 .myAccount-navigation ul li {
@@ -12476,7 +12483,7 @@ My Account CSS
   display: block;
   padding: 9px 25px 9px 50px;
   color: #252525;
-  border: 1px solid #eeeeee;
+  border: 0px solid #eeeeee;
   position: relative;
   border-radius: 3px 3px 0 0;
   font-size: 15px;

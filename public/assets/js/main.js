@@ -967,7 +967,7 @@ jQuery(function ($) {
     });
 
     // Buy Now Btn
-    $('body').append("<a href='/donate' class='buy-now-btn'>Donate Now</a>");
+    $('body').append("<a href='#' class='buy-now-btn'>Donate Now</a>");
 
 }(jQuery));
 

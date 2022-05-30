@@ -6,207 +6,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Links of CSS files -->
-        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/boxicons.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/odometer.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/nice-select.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/viewer.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/slick.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/dark.css')}}">
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css')}}">
-
-        <title>Joome Support- Computer,Music & Sports</title>
-
-        <link rel="icon" type="image/png" href="{{ asset('assets/img/partner/11.png')}}">
+        @include('frontlayouts.css')
     </head>
 
     <body>
 
         <!-- Preloader -->
-        <div class="preloader">
-            <div class="loader">
-                <div class="shadow"></div>
-                <div class="box"></div>
-            </div>
-        </div>
+       @include('frontlayouts.preloader')
         <!-- End Preloader -->
 
         <!-- Start Header Area -->
-        <header class="header-area">
-
-            <div class="top-header">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <ul class="top-header-contact-info">
-                                <li>
-                                    <i class='bx bx-phone-call'></i>
-                                    <span>Contact support</span>
-                                    <a href="tel:+256 753 926 367">+256 753 926 367</a>
-                                </li>
-                                <li>
-                                    <i class='bx bx-map'></i>
-                                    <span>Our location</span>
-                                    <a href="#">Ngora, Uganda</a>
-                                </li>
-                                <li>
-                                    <i class='bx bx-envelope'></i>
-                                    <span>Contact email</span>
-                                    <!--<a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#b4dcd1d8d8dbf4c6d5c5c1d19ad7dbd9"><span class="__cf_email__" data-cfemail="cfa7aaa3a3a08fbdaebebaaae1aca0a2">[email&#160;protected]</span></a>-->
-                                    ocibajames@gmail.com
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="top-header-btn">
-                                <a href="/login" class="default-btn"><i class='bx bx-log-in icon-arrow before'></i><span class="label">Log In</span><i class="bx bx-log-in icon-arrow after"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Start Navbar Area -->
-            <div class="navbar-area">
-                <div class="raque-responsive-nav">
-                    <div class="container">
-                        <div class="raque-responsive-menu">
-                            <div class="logo">
-                                <a href="/">
-                                    <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                    <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="raque-nav bg-transparent">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="/">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                <a class="navbar-brand" href="/">JOOME</a>
-                            </a>
-
-                            <div class="collapse navbar-collapse mean-menu">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a href="/" class="nav-link">Home </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/about" class="nav-link">About </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/activities" class="nav-link active">Activities </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/target-group" class="nav-link">Target Group </a>
-                                    </li>
-                                    
-                                    <li class="nav-item"><a href="/projects" class="nav-link">Projects </a>
-                                    </li>
-                                    
-                                    <li class="nav-item"><a href="/blog" class="nav-link">Blog </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-
-                                    <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
-                                </ul>
-
-                                <div class="others-option">
-                                    <div class="dropdown language-switcher d-inline-block">
-                                        <a href="/donate" class="dropdown-toggle">
-                                            <span class="donate">Donate </span>
-                                        </a>
-                                    </div>
-
-                                    <!--<a href="cart.html" class="cart-wrapper-btn d-inline-block">
-                                        <i class='bx bx-cart-alt'></i>
-                                        <span>01</span>
-                                    </a>
-
-                                    <div class="search-box d-inline-block">
-                                        <i class='bx bx-search'></i>
-                                    </div>-->
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <!-- End Navbar Area -->
-
-            <!-- Start Sticky Navbar Area -->
-            <div class="navbar-area header-sticky">
-                <div class="raque-nav">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="/">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="black-logo" alt="logo">
-                                <img src="{{ asset('assets/img/partner/11.png')}}" class="white-logo" alt="logo">
-                                <a class="navbar-brand" href="/">JOOME</a>
-                            </a>
-
-                            <div class="collapse navbar-collapse">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a href="/" class="nav-link">Home </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/about" class="nav-link">About </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/activities" class="nav-link active">Activities </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/target-group" class="nav-link">Target Group </a>
-                                    </li>
-                                    
-                                    <li class="nav-item"><a href="/projects" class="nav-link">Projects </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/blog" class="nav-link">Blog </a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-
-                                    <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
-                                </ul>
-
-                                <div class="others-option">
-                                    <div class="dropdown language-switcher d-inline-block">
-                                            <a href="/donate" class="dropdown-toggle">
-                                                <span class="donate">Donate </span>
-                                            </a>
-                                        </div>
-    
-                                        <!--<a href="cart.html" class="cart-wrapper-btn d-inline-block">
-                                            <i class='bx bx-cart-alt'></i>
-                                            <span>01</span>
-                                        </a>
-    
-                                        <div class="search-box d-inline-block">
-                                            <i class='bx bx-search'></i>
-                                        </div>-->
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <!-- End Sticky Navbar Area -->
-            
-        </header>
+        @include('frontlayouts.menu')
         <!-- End Header Area -->
 
         <!-- Search Box Layout -->
@@ -252,13 +62,7 @@
         <section class="my-account-area ptb-100">
             <div class="container">
                 <div class="myAccount-navigation">
-                    <ul>
-                        <li><a href="/activities"><i class='bx bxs-dashboard'></i> Schools</a></li>
-                        <li><a href="/computer" class="active"><i class='bx bx-cart'></i> Computer</a></li>
-                        <li><a href="/music"><i class='bx bx-download'></i> Music</a></li>
-                        <li><a href="/pe"><i class='bx bx-home-alt'></i> Physical Education</a></li>
-                        <li><a href="/sponsors"><i class='bx bx-edit'></i> Sponsorships</a></li>
-                    </ul>
+                   @include('frontlayouts.activities-submenu')
                 </div>
 
                 <div class="myAccount-content">
